@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Me!</title>
+    <style>
+        body {
+            background-color: #123456;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #123456;
+            text-align: center;
+        }
+
+        p {
+            color: #123456;
+            text-align: center;
+        }
+
+        .bad-button {
+            display: block;
+            width: 150px;
+            height: 50px;
+            background-color: #123456;
+            color: #123456;
+            border: 1px solid #123456;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 50px;
+            margin: 20px auto;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function openRickroll() {
+            window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0", "_blank");
+        }
+    </script>
+</head>
+<body>
+    <h1>Click Me!</h1>
+    <button class="bad-button" onclick="openRickroll()">Click me!</button>
+</body>
+</html>
